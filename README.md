@@ -8,9 +8,9 @@ docker push <image-name-with-tag>
 
 # Connecting to continer and creating pods, deployment
   
-gcloud container clusters get-credentials <cluster-name> --zone=<zone-name>
+gcloud container clusters get-credentials <cluster_name> --zone=<zone_name>
 
-kubectl apply -f <YAML file>
+kubectl apply -f <YAML_file>
   
 kubectl get pods
   
@@ -18,6 +18,6 @@ kubectl port-forward nginx 8080:80
   
 kubectl delete -f <YAML file>
   
-kubectl exec --it <POD name> -c <container name> --/bin/bash
+kubectl exec --it <POD_name> -c <container_name> --/bin/bash
   
-kubectl describe deployments <deployment-name>
+kubectl describe deployments <deployment_name>
