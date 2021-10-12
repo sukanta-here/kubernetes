@@ -1,4 +1,5 @@
-Repo for maaging files for kubernetes
+# Repo for managing files for kubernetes
+# Useful Commands
 
 kubectl apply -f <YAML file>
   
